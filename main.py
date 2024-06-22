@@ -99,16 +99,6 @@ def main():
                 get_vector_store(text_chunks)
                 st.success("Done")
 
-    # if st.button("Request Call"):
-    #     st.subheader("Please fill out the form below to request a call.")
-    #
-    #     name = st.text_input("Full Name:", "")
-    #     phone_number = st.text_input("Phone Number:", "")
-    #     email = st.text_input("Email Address:", "")
-    #
-    #     if st.button("Submit Request"):
-    #         st.success("Call request submitted successfully!")
-
 
 if __name__ == "__main__":
     main()
